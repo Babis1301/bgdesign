@@ -1,0 +1,348 @@
+/* ********************* *********** ********* style for cookies page *********** *********  ********************* */
+/* ********************* *********** ********* style for cookies page *********** ********* ********************* */
+/* ********************* *********** ********* style for cookies page *********** *********  ********************* */
+.cookies-section-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  max-width: 1440px;
+}
+.cookies-section-1 h1{
+  font-family: var(--font-primary);
+  font-size: 72px;
+  color: var(--text-color);
+margin-top: 128px;
+}
+.cookies-section-1 h2{
+  font-family: var(--font-primary);
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--text-color);
+
+}
+.cookies-section-1 span{
+  font-family: var(--font-primary);
+  font-size:16px;
+  color: var(--secondary-color); 
+  font-weight: 600;
+  text-shadow: 1px 1px 1px gray;
+  padding: 0 0 16px 0;
+}
+.cookies-section-1 p{
+  font-family: var(--font-primary);
+  font-size:20px;
+  color: var(--primary-color); 
+  padding: 24px 0 ;
+}
+/* cookies section 2 */
+.cookies-container{
+  width: 100%;
+  margin: auto;
+  background-color: var(--third-color);
+  border-radius: 0 0 256px 0;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cookies-section-2{
+  margin: auto;
+  max-width: 1440px;
+}
+.cookies-section-2 h2{
+  font-family: var(--font-primary);
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--primary-color);
+
+}
+
+.cookies-section-2 p{
+  font-family: var(--font-primary);
+  font-size:20px;
+  color: var(--primary-color); 
+  padding: 24px 0 ;
+}
+
+/* cookies section 3 */
+.cookies-section-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0px;
+  /* width: 100%; */
+  margin: auto;
+  height: 800px;
+ 
+}
+  
+.cookies-section-3-title {
+  grid-column: span 2 / span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  border-radius: 0px 95px 0px 0px / 0px 94px 0px 0px;
+}
+.cookies-section-3-title h2{
+  font-family: var(--font-primary);
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.cookies-section-3-description-1 {
+  grid-column: span 2 / span 2;
+  grid-row: span 4 / span 4;
+  grid-row-start: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 24px;
+}
+.cookies-section-3-description-1 p , 
+.cookies-section-3-description-2 p{
+font-size: 18px;
+padding: 12px;
+}
+
+.cookies-section-3-description-2{
+  grid-column: span 2 / span 2;
+  grid-row: span 4 / span 4;
+  grid-column-start: 3;
+  grid-row-start: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--fourth-color);
+  color: var(--background-color);
+  font-weight: 300;
+  padding: 24px;
+  border-radius: 0 0 0 96px;
+}
+.cookies-section-3-description-2 li{
+  font-size: 18px;
+padding: 12px;
+list-style: none;
+}
+.cookies-section-4, .cookies-section-5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  max-width: 1440px;
+}
+.cookies-section-4{padding-bottom: 48px;}
+.cookies-section-4 h2, .cookies-section-5 h2{
+  font-family: var(--font-primary);
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--primary-color);
+  padding: 48px 0;
+}
+.cookies-section-4 p, .cookies-section-5 p{
+  font-family: var(--font-primary);
+  font-size:20px;
+  color: var(--primary-color); 
+  padding: 12px 0;
+}
+.cookies-section-5 h5{
+  font-family: var(--font-primary);
+  font-size:16px;
+  color: var(--secondary-color); 
+  text-shadow: 1px 1px 1px gray;
+  padding: 12px 0 48px 0;
+}
+.back-btn{
+  font-size: 24px;
+  border: none;
+  background-color: transparent;
+  padding: 8px;
+  cursor: pointer;
+  font-family: var(--font-primary);
+  font-weight: 400;
+}
+
+@media(max-width:1728px){
+  .cookies-section-1 h1{font-size: 68px;}
+  .cookies-section-1 p,
+  .cookies-section-2 p,
+  .cookies-section-3 p,
+  .cookies-section-4 p,
+  .cookies-section-5 p{font-size: 18px;}
+  .cookies-section-2 h2,
+  .cookies-section-3 h2,
+  .cookies-section-4 h2,
+  .cookies-section-5 h2{font-size: 40px;}
+}
+@media(max-width:1580px){
+  .cookies-section-1 h1{font-size: 62px;}
+  .cookies-section-1 p,
+  .cookies-section-2 p,
+  .cookies-section-3 p,
+  .cookies-section-4 p,
+  .cookies-section-5 p{font-size: 18px;}
+  .cookies-section-2 h2,
+  .cookies-section-3 h2,
+  .cookies-section-4 h2,
+  .cookies-section-5 h2{font-size: 36px;}
+  .cookies-section-1,
+  .cookies-section-2,
+  .cookies-section-4,
+  .cookies-section-5{width: 90%;}
+}
+@media (max-width:1480px){
+  .cookies-section-1 h1{font-size: 56px;}
+  .cookies-section-1 h2{font-size: 36px;}
+  .cookies-section-3-description-2 ul li{font-size: 16px;padding: 6px 0;}
+  .cookies-section-1,
+  .cookies-section-2,
+  .cookies-section-4,
+  .cookies-section-5{width: 90%;margin: auto;}
+  .cookies-section-1 p,
+  .cookies-section-2 p,
+  .cookies-section-3 p,
+  .cookies-section-4 p,
+  .cookies-section-5 p{font-size: 16px;}
+}
+@media (max-width:1280px){
+  .cookies-container{height: 450px;}
+  .cookies-section-1 h1{font-size: 52px;}
+  .cookies-section-1 h2{font-size: 32px;}
+  .cookies-section-2 h2,
+  .cookies-section-3 h2,
+  .cookies-section-4 h2,
+  .cookies-section-5 h2{font-size: 32px; padding: 24px 0;}
+}
+@media (max-width:1067px){
+  .back-btn{font-size: 22px;}
+  .cookies-section-1 h1{font-size: 48px;}
+  .cookies-section-2 p,
+  .cookies-section-3 p,
+  .cookies-section-4 p,
+  .cookies-section-5 p{padding: 6px 0;}
+
+  .cookies-container{border-radius: 0 0 160px 0;}
+  .cookies-section-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+    }
+    .cookies-section-3-title  { grid-area: 1 / 1 / 2 / 2; }
+    .cookies-section-3-description-1 {grid-area: 2 / 1 / 5 / 2;}
+    .cookies-section-3-description-2{ grid-area: 5 / 1 / 8 / 2; }
+}
+@media (max-width:920px){
+  .cookies-section-1 p{padding: 16px 0;}
+}
+@media (max-width:769px){
+  .cookies-section-1 h2{font-size: 26px;}
+  .cookies-section-2 h2,
+  .cookies-section-3 h2,
+  .cookies-section-4 h2,
+  .cookies-section-5 h2{font-size: 26px; padding: 16px 0;}
+}
+@media (max-width:620px){.back-btn{font-size: 20px;}
+  .cookies-section-1 h1{font-size: 44px;}
+  .cookies-section-1 h2{font-size: 24px;}
+  .cookies-section-2 h2,
+  .cookies-section-3 h2,
+  .cookies-section-4 h2,
+  .cookies-section-5 h2{font-size: 24px; padding: 16px 0;}
+  .cookies-container{border-radius: 0 0 96px 0; margin-bottom: 32px;}
+  .cookies-section-3{display: none;}
+  .cookies-section-4{padding-bottom: 0;}
+}
+@media (max-width:520px){
+  .cookies-section-1 h1{font-size: 40px;}
+  .cookies-section-1 span{font-size: 12px;}
+  .cookies-container{height: 500px; border-radius: 0 0 72px 0;}
+  .cookies-section-1 h2{font-size: 20px;}
+  .cookies-section-2 h2,
+  .cookies-section-3 h2,
+  .cookies-section-4 h2,
+  .cookies-section-5 h2{font-size: 20px; padding: 12px 0;}
+}
+@media (max-width:418px){.back-btn{font-size: 16px;padding:0 0 0 8px;}
+.header2 .languages a, .header2 .languages span {font-size: 16px;}
+  .cookies-section-1 h1{font-size: 38px;}
+  .cookies-section-1 p,
+  .cookies-section-2 p,
+  .cookies-section-3 p,
+  .cookies-section-4 p,
+  .cookies-section-5 p{font-size: 14px;}
+  .cookies-section-5 h5{font-size: 14px;}
+  .cookies-container{border-radius: 0 0 64px 0;}
+}
+@media (max-width:380px){
+  .cookies-container{height: auto; padding: 24px 0;}
+}
+@media (max-width:338px){.back-btn{padding:0 0 0 4px;}
+  .cookies-section-1 h1{font-size: 34px;}
+}
+@media (max-width:290px){
+  .cookies-section-1 h1{font-size: 30px;}
+}
+
+/* *****************************STYLE FOR TERM OF USE************************** */
+/* *****************************STYLE FOR TERM OF USE************************** */
+/* *****************************STYLE FOR TERM OF USE************************** */
+
+.term-of-use{
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding-bottom: 48px;
+}
+.term-of-use h1{font-size: 80px;margin-top: 144px;font-family: var(--font-primary);color: var(--primary-color);}
+.term-of-use h2{font-size: 14px;color: var(--secondary-color);font-weight: 600;padding:8px 0 24px 0;
+  text-shadow: 1px 1px 1px rgb(91, 91, 91);}
+.term-of-use h3{font-size: 36px;padding: 16px 0;text-transform: uppercase;font-weight: 400;}
+.term-of-use p{font-size: 18px;padding: 4px 0;}
+.term-of-use ul{padding:8px 0 8px 18px;}
+
+@media (max-width:1580px){
+  .term-of-use{width: 90%;}
+  .term-of-use h1{font-size: 72px;}
+  .term-of-use p{font-size: 16px;}
+
+}
+@media (max-width:1320px){
+  .term-of-use h1{font-size: 64px;}
+  .term-of-use h3{font-size: 32px;}
+ }
+ @media (max-width:1067px){
+  .term-of-use h1{font-size: 60px;}
+  .term-of-use h3{font-size: 28px;}
+ }
+ @media (max-width:769px){
+  .term-of-use h1{font-size: 54px;}
+  .term-of-use h3{font-size: 24px;}
+ }
+ @media (max-width:600px){
+  .term-of-use h1{font-size: 48px;}
+  .term-of-use h3{font-size: 22px;}
+ }
+ @media (max-width:520px){
+  .term-of-use h1{font-size: 40px;}
+ }
+ @media (max-width:418px){
+  .term-of-use h1{font-size: 36px;margin-top: 112px;}
+  .term-of-use p{font-size: 14px;}
+  .term-of-use li{font-size: 14px;}
+  .term-of-use ul{padding:8px 0 8px 16px;}
+  .term-of-use h6{font-size: 12px;}
+ }
+ @media (max-width:338px){
+  .term-of-use h1{font-size: 32px;margin-top: 112px;}
+
+ }
